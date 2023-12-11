@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>CITO SMART</title>
+        <link rel="stylesheet" href="citosmart.css">
+        <script src="https://kit.fontawesome.com/88d2258f27.js" crossorigin="anonymous"></script>
+    </head>
+
+    <body>
+        <section class="header">
+            <nav>
+                <div class="logo">
+                    <h1>CITO<b>SMART</b></h1>
+                </div>
+                <div class="nav-links" id="navlinks">
+                    <i class="fa fa-times" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="#home">HOME</a></li>
+                        <li><a href="#services">SERVICES</a></li>
+                        <li><a href="#about">ABOUT</a></li>
+                        <li><a href="#contact">CONTACT</a></li>
+                    </ul>
+                </div>
+                <i class="fa fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="text-box" id="home">
+                <h1>Welcome To CitoSmart</h1>
+                <p>Your one-stop destination for quality, variety, and convenience. Dive into the world of fresh and quality produce,<br> all curated to elevate your shopping experience.</p>
+                <br><a href="#contact" class="hero-btn">Contact Us For More Enquires</a>
+            </div>
+        </section>
+
+        <!-- Store -->
+        <section class="store">
+            <h1>Our Stores</h1>
+            <p>Visit our various stores today.</p>
+            <div class="row">
+                <div class="store-col">
+                    <img src="image/aisle.jpg">
+                    <div class="layer">
+                        <h3>SELF-CARE</h3>
+                    </div>
+                </div>
+                <div class="store-col">
+                    <img src="image/cart aisle.jpg">
+                    <div class="layer">
+                        <h3>WINE STORE</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Products -->
+        <section class="products" id="services">
+            <h1>Our Services</h1>
+            <p>View our quality products today.</p>
+            <div class="row">
+                <div class="products-col">
+                    <img src="image/drinks aisle.jpg">
+                    <h3>Quality Drinks</h3>
+                    <p>Take a look at our quality and tasty drinks that will leave you feeling refreshed</p>
+                </div>
+                <div class="products-col">
+                    <img src="image/people cart.jpg">
+                    <h3>Fresh Fruits</h3>
+                    <p>Take a look at our quality, tasty and fresh fruits that is guaranteed to make you feel healthy</p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials -->
+        <section class="testimonials">
+            <h1>What Our Customers Say</h1>
+            <p>Here are some feedbacks from some of our customers</p>
+            <div class="row">
+                <div class="testimonials-col">
+                    <img src="image/jane.jpg">
+                    <div>
+                        I love the products here so so much i will definitely come back for seconds.
+                        <h3>Mary Jane</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-half-o"></i>
+                    </div>
+                </div>
+                <div class="testimonials-col">
+                    <img src="image/nuel.jpg">
+                    <div>
+                        The products are here are really top-notch i will definitely bring a friend when next i come around.
+                        <h3>Balo Nuel</h3>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star"></i>
+                        <i class="fa fa-star-o"></i>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Us -->
+        <section class="about-us" id="about">
+            <h1 class="sub-header">About Us</h1>
+            <div class="row">
+                <div class="about-col">
+                    <h1>We are the best quality product store</h1>
+                    <p>Are you looking for the best of the best of quality products?, look no further because CITOSMART has got you covered</p>
+                    <a href="" class="hero-btn red-btn">EXPLORE NOW</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Us -->
+        <section class="location">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.4353763681697!2d3.2552958279848156!3d6.592684691485894!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b9184bed1b245%3A0x7189d2f6b3a8a580!2sCito%20Smart%20Supermarket!5e0!3m2!1sen!2sng!4v1700978646928!5m2!1sen!2sng" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <secton class="contact-us" id="contact">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>2-storey road, Gemini Bus-stop</h5>
+                            <p>Baruwa, Ipaja, Lagos</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>+2348145506314</h5>
+                            <p>Monday-Saturday, 10AM- 10PM <br> Sunday, 3PM-10PM </p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>balemzy22@gmail.com</h5>
+                            <p>Email us for our services or queries</p>
+                        </span>
+                    </div>
+                </div>
+                <div class="content-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter your Email address" required>
+                        <input type="text" name="service" placeholder="Enter the Service you require" required>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+                </div>
+            </div>
+        </secton>
+
+        <!-- footer -->
+        <section class="footer">
+            <h4>You can also contact us via</h4>
+            <div class="icon">
+                <a href="+2348146606313"><i class="fa fa-whatsapp"></i></a>
+                <a href="+2348146606313"><i class="fa fa-facebook"></i></a>
+                <a href="+2348146606313"><i class="fa fa-twitter"></i></a>
+                <a href="+2348146606313"><i class="fa fa-instagram"></i></a>
+            </div>
+            <div class="up">
+                <a href="#home">Back to Top</a>
+            </div>
+            <p>Made with <i class="fa fa-heart-o"></i> by Nuel</p>
+        </section>
+
+        <!-- javascript toggle for menu -->
+        <script>
+            var navlinks= document.getElementById("navlinks");
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+    </body>
+
+</html>
